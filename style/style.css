@@ -1,0 +1,80 @@
+.main-header-banner{background-image: url("/imges/Hero-bg.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 120px;
+}
+.cover-site{
+   text-align: center;
+   
+}
+.cover-site h1{
+    font-size: 55px;
+}
+.prymary-btn{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+
+/* ================= */
+
+.Development-section{
+    background-color:#f4eaea ;
+    width: 1140px;
+   /* justify-content: center; */
+   margin: 0 auto;
+   margin-top: 60px;
+}
+
+.Development-header{
+    text-align: center;
+    padding: 80px;
+}
+
+
+.Development-section2{
+    display: flex;
+   justify-content: space-around;
+}
+
+
+
+
+
+/* ===================video section============== */
+
+.video-heading{
+    text-align: center;
+    padding: 40px;
+}
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+
+/* =========================== */
+
+.current-main-header{
+    text-align: center;
+    padding: 20px;
+}
+.current-main-header h3{
+    font-size: 40px;
+}
+
+
+.current-sub-section{
+    display: flex;
+  gap: 60px;
+ text-align: left;
+ padding: 50px;
+}
+.html-culome{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+}
