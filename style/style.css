@@ -11,7 +11,27 @@
 .fonts-styles{
     font-family: "Inter", sans-serif;
 }
+/* ====================navbar================= */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 30px;
+   
+}
 
+.nav-head h4{
+    font-size: 30px;
+}
+.secone-nav-imgae a{
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    /* padding: 20px, 30px 30, 50px ; */
+    padding: 20px 0px, 30px;
+   
+}
 
 .main-header-banner{background-image: url("/imges/Hero-bg.png");
 background-repeat: no-repeat;
@@ -32,10 +52,15 @@ padding: 120px;
     border: 1px solid;
     border-radius: 4px;
     background-color: black;
+    text-decoration: none;
     color: white;
     border: none;
     margin-top: 30px;
     
+}
+.prymary-btn a{
+    text-decoration: none;
+    color: #f4eaea;
 }
 
 .discption{
@@ -100,8 +125,65 @@ padding: 120px;
  text-align: left;
  padding: 50px;
 }
-.html-culome{
-    background-color: aqua;
+.html-culome1{
+    background-color: #EBEBEB;
     padding: 20px;
     border-radius: 5px;
 }
+.html-culome2{
+    background-color: #c7c2c2;
+    padding: 20px;
+    border-radius: 5px;
+}
+.html-culome3{
+    background-color: #f6e3ac;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* ============================i need */
+
+.I-Need-section{background-image:  
+     linear-gradient(
+        45deg, rgba(105, 81, 105, 0.6),
+        rgba(141, 130, 148, 0.7)
+     ),
+    
+    url("/imges/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width:90%;
+    height: 400px;
+    margin: 0 auto;
+   border-radius: 30px;
+    
+    }
+    .I-Need-Sub-section{
+        text-align: center;
+        padding: 50px;
+    }
+    .I-Need-Sub-section input{
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 5px;
+        border: navy;
+    }
+
+
+
+
+
+
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    
+    }
