@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.fonts-styles{
+    font-family: "Inter", sans-serif;
+}
+
+
 .main-header-banner{background-image: url("/imges/Hero-bg.png");
 background-repeat: no-repeat;
 background-size: cover;
@@ -8,7 +23,9 @@ padding: 120px;
    
 }
 .cover-site h1{
-    font-size: 55px;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600px;
 }
 .prymary-btn{
     padding: 15px;
@@ -17,7 +34,17 @@ padding: 120px;
     background-color: black;
     color: white;
     border: none;
+    margin-top: 30px;
     
+}
+
+.discption{
+     width: 400px;
+    /* height: 80px;
+   justify-content: space-around;  */
+   /* display: flex;
+ align-items: center; */
+ margin: 0 auto
 }
 
 /* ================= */
