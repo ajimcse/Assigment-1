@@ -23,20 +23,25 @@
 .nav-head h4{
     font-size: 30px;
 }
-.secone-nav-imgae a{
+.section-nav-imgae a{
     text-decoration: none;
+}
+.section-nav-imgae{
     border-radius: 5px;
     font-weight: 700;
     font-size: 15px;
-    /* padding: 20px, 30px 30, 50px ; */
-    padding: 20px 0px, 30px;
-   
+    padding: 10px;
+    border: 2px solid;
+    color: #0D1321;
+ }
+.download{
+    padding-top: 40px;
 }
 
 .main-header-banner{background-image: url("/imges/Hero-bg.png");
 background-repeat: no-repeat;
 background-size: cover;
-padding: 120px;
+padding: 100px;
 }
 .cover-site{
    text-align: center;
@@ -65,11 +70,7 @@ padding: 120px;
 
 .discption{
      width: 400px;
-    /* height: 80px;
-   justify-content: space-around;  */
-   /* display: flex;
- align-items: center; */
- margin: 0 auto
+    margin: 0 auto;
 }
 
 /* ================= */
@@ -77,26 +78,29 @@ padding: 120px;
 .Development-section{
     background-color:#f4eaea ;
     width: 1140px;
-   /* justify-content: center; */
-   margin: 0 auto;
+    margin: 0 auto;
    margin-top: 60px;
 }
 
 .Development-header{
     text-align: center;
     padding: 80px;
+    
+}
+.Development-title{
+    font-size: 33px;
+    font-weight: 800;
 }
 
+.Development-sub-title{
+    font-size: 25px;
+    font-weight: 600;
+}
 
 .Development-section2{
     display: flex;
    justify-content: space-around;
 }
-
-
-
-
-
 /* ===================video section============== */
 
 .video-heading{
@@ -140,12 +144,40 @@ padding: 120px;
     padding: 20px;
     border-radius: 5px;
 }
+/* ========my next========= */
 
+.my-next-all-title{
+ display: flex;
+ margin: 0 auto;
+ margin: 30px;
+ border: 0.5px solid;
+ padding: 20px;
+ border-radius: 5px;
 
-
-
-
-
+}
+.my-next{
+    text-align: center;
+   
+}
+.my-next h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.title1{
+    padding-left: 55px;
+}
+.title2{
+padding-left:20px;
+}
+.title3{
+    padding-left: 25px;
+}
+.learn-btn{
+    font-weight: 600;
+    font-size: 22px;
+    color: #0D1321;
+}
 
 /* ============================i need */
 
@@ -175,12 +207,6 @@ padding: 120px;
         border-radius: 5px;
         border: navy;
     }
-
-
-
-
-
-
     .footer-section{
         display: flex;
         justify-content: space-between;
