@@ -44,9 +44,10 @@ body {
 }
 
 .main-header-banner {
-    background-image: url("/imges/Hero-bg.png");
+    background-image: url("../imges/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
     padding: 100px;
 }
 
