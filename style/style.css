@@ -230,7 +230,7 @@ video{ border-radius: 10px;}
         linear-gradient(45deg, rgba(105, 81, 105, 0.6),
             rgba(141, 130, 148, 0.7)),
 
-        url("/imges/handshake.jpg");
+        url("../imges/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
