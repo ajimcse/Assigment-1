@@ -47,7 +47,6 @@ body {
     background-image: url("../imges/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
     padding: 100px;
 }
 
@@ -101,9 +100,15 @@ body {
 }
 
 .Development-title {
+    text-align: center;
     font-size: 33px;
     font-weight: 800;
+    margin-bottom: 50px;
 }
+.Development-title p{
+    font-size: 18px; font-weight: 600;
+}
+
 
 .Development-sub-title {
     font-size: 25px;
@@ -239,6 +244,7 @@ video{ border-radius: 10px;}
     margin: 0 auto;
     border-radius: 30px;
 
+    
 }
 
 .I-Need-Sub-section {
@@ -269,6 +275,49 @@ video{ border-radius: 10px;}
     margin-top: 5px;
 
 
+}
+
+@media screen and (max-width:576px) {
+    .main-nav, .Development-section2, .current-sub-section, .my-next-all-title{
+        flex-direction: column;
+        /* align-items: center; */
+        align-items: center;
+    }
+    .nav-head{
+        margin-top: 60px;
+    }
+    .main-header-banner img{
+        width: auto;
+    }
+    .codding-section{
+        width: auto;
+    }
+    .Development-section{
+        width: auto;
+    }
+    .current-sub-section{
+        padding: 0;
+    }
+    .video-heading{
+        width: auto;
+    }
+    .Development-title h2 {
+        font-size: 25px;
+    }
+
+
+    
+}
+@media screen and (max-width:576px) {
+    .main-header-banner{
+       flex-direction: column;
+
+    }
+    .discption{
+        font-size: 20px;
+        width: auto;
+    }
+    
 }
 
 /* ============================End================================ */
